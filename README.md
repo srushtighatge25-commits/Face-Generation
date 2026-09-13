@@ -1,3 +1,44 @@
+# 🎭 Latent Faces — DCGAN Face Generator
+
+A Generative AI web application that generates synthetic
+64×64 human faces using a Deep Convolutional Generative
+Adversarial Network (DCGAN).
+
+The trained PyTorch generator is served through a Flask
+application and generates a new synthetic portrait from a
+random latent vector on demand.
+
+## 🖼️ Demo
+
+![Latent Faces Application](assets/application-ui.png)
+
+## ✨ Features
+
+- DCGAN-based synthetic face generation
+- Random latent vector sampling
+- Reproducible seed-based generation
+- Flask web interface
+- CUDA acceleration with CPU fallback
+- Portrait history
+- PNG downloads
+- Automated inference tests
+- CelebA fine-tuning workflow
+- Training checkpoint and resume support
+
+## 🛠️ Tech Stack
+
+- Python
+- PyTorch
+- DCGAN
+- Flask
+- NumPy
+- Pillow
+- HTML
+- CSS
+- JavaScript
+
+
+
 # Latent Faces — Flask DCGAN Demo
 
 A small Flask application that loads `generator.pth` once at startup and creates a new 64×64 synthetic face from a fresh random latent vector whenever the user clicks **Generate a face**.
